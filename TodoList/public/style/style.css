@@ -1,0 +1,33 @@
+
+:root{
+    --green : #B0FC38;
+    --verr : #5DBB63; 
+
+    --fonce:  #234F1E;
+    --che: #99EDC3;
+}
+
+#vertClair{
+    background-color: var(--green);
+    color: var(--verr);
+}
+
+#vertFonce{
+    background-color: var(--fonce) !important;
+    color: var(--che) !important;
+}
+.changer{
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.friendo::placeholder{
+    color: white;
+}
+.white{
+    color: white;
+}
+.hidden{
+    display: none !important; 
+}
+
